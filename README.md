@@ -21,8 +21,7 @@ After installation, just add the following line to your `~/.vimrc` file:
 colorscheme mombat
 ```
 
-If you use [vim-airline](https://github.com/bling/vim-airline)
-(and installed mombat using a package manager),
+If you use [vim-airline](https://github.com/bling/vim-airline),
 you can use the included airline theme by adding this line:
 
 ```vim
@@ -32,7 +31,6 @@ let g:airline_theme='mombat'
 ## Screenshots
 
 ![mombat rust](http://i.imgur.com/RfBVx3K.png)
-
 ![mombat ruby](http://i.imgur.com/85qFlRF.png)
 
 ## License
