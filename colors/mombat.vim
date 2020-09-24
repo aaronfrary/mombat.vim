@@ -1,6 +1,6 @@
 " Vim color file
-" Maintainer: Aaron Graham-Horowitz (aaron@aaronsgh.com)
-" Last Change: 2015-06-19
+" Maintainer: Aaron Frary (af@aaronfrary.com)
+" Last Change: 2020-09-24
 "
 " Based on modified version of wombat colorscheme by
 "  Adam Stankiewicz (sheerun@sher.pl)
@@ -42,12 +42,6 @@ if version >= 700
   hi PmenuSel ctermfg=232 ctermbg=192 guifg=#080808 guibg=#cae982
 endif
 
-" Diff highlighting
-hi DiffAdd ctermbg=17 guibg=#2a0d6a
-hi DiffDelete ctermfg=101 ctermbg=60 cterm=none guifg=#242424 guibg=#3e3969 gui=none
-hi DiffText ctermbg=53 cterm=none guibg=#73186e gui=none
-hi DiffChange ctermbg=237 guibg=#382a37
-
 " Syntax highlighting
 hi Statement ctermfg=111 cterm=none guifg=#88b8f6 gui=none
 hi Operator ctermfg=111 cterm=none guifg=#88b8f6 gui=none
@@ -68,6 +62,7 @@ hi Todo ctermfg=101 cterm=none guifg=#857b6f gui=none
 hi! link FoldColumn Folded
 hi! link CursorColumn CursorLine
 hi! link NonText LineNr
+hi! link SignColumn LineNr
 hi! link SpecialChar Normal
 hi! link Float Number
 hi! link Character Number
